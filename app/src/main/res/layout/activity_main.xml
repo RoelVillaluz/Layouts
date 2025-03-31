@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- First section -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 1"
+        android:textColor="#000000"
+        android:backgroundTint="#CCCCCC"
+        app:cornerRadius="0dp" />
+
+    <!-- Second section with button 2 and buttons 3-4 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUTTON 2"
+            android:textColor="#000000"
+            android:backgroundTint="#CCCCCC"
+            app:cornerRadius="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button2">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUTTON 3"
+                android:textColor="#000000"
+                android:backgroundTint="#CCCCCC"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUTTON 4"
+                android:textColor="#000000"
+                android:backgroundTint="#CCCCCC"
+                app:cornerRadius="0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- Third section with button 5 and buttons 6-7 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUTTON 5"
+            android:textColor="#000000"
+            android:backgroundTint="#CCCCCC"
+            app:cornerRadius="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/button5">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUTTON 6"
+                android:textColor="#000000"
+                android:backgroundTint="#CCCCCC"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUTTON 7"
+                android:textColor="#000000"
+                android:backgroundTint="#CCCCCC"
+                app:cornerRadius="0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 8"
+        android:textColor="#000000"
+        android:backgroundTint="#CCCCCC"
+        app:cornerRadius="0dp" />
+
+    <!-- Seventh section (bottom row) - buttons 9-12 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BUTTON 9"
+            android:textColor="#000000"
+            android:backgroundTint="#CCCCCC"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BUTTON 10"
+            android:textColor="#000000"
+            android:backgroundTint="#CCCCCC"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BUTTON 11"
+            android:textColor="#000000"
+            android:backgroundTint="#CCCCCC"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BUTTON 12"
+            android:textColor="#000000"
+            android:backgroundTint="#CCCCCC"
+            app:cornerRadius="0dp" />
+    </LinearLayout>
+
+</LinearLayout>
